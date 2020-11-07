@@ -1,0 +1,20 @@
+
+.date_picker div { box-sizing: border-box; font-family:"Segoe UI",Arial,sans-serif; -webkit-user-select: none;}
+.date_picker h2 { font-size: 30px; font-weight: 400}
+.date_picker { display: inline-block; background-color: #f7f7f7; border: 2px solid white; -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1); box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1); min-width: 250px; max-width: 250px; margin-top: 20px; margin-bottom: 20px }
+.date_picker_month { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: #8bc34a; width: 100%; padding: 10px; color: #fff; text-align: center }
+.date_picker_days, .date_picker_week-days { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap }
+.date_picker_week-days div { border-left: 1px solid rgba(255, 255, 255, 0.3); font-weight: 500; font-size: 14px; letter-spacing: 1px; text-align: center; color: rgba(255, 255, 255, 0.9) }
+.date_picker_week-days { background-color: #4CAF50; padding: 7px 0; color: #fff }
+.date_picker_days div, .date_picker_week-days div { width: 14.28%; text-align: center }
+.date_picker_days div { padding: 4px 0; -webkit-transition: .3s; transition: .3s }
+.date_picker_days div:hover { background-color: #dfe6e9; cursor: pointer }
+.date_picker_today { font-weight: bold }
+.date_picker_other-month { color: #bbb }
+div.date_picker_other-month:hover { background-color: transparent; cursor: text }
+.date_picker_selected { box-shadow: 0px 0px 0px 1px black inset; }
+.date_picker_has_event { background-color: #87CEEB }
+.date_picker_current-date #date_pickerMonth { margin-bottom: 0; padding: 0; font-size: 16px; color: white; font-weight: 700; }
+.date_picker_next, .date_picker_prev { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: rgba(0, 0, 0, .1); border-radius: 50%; width: 30px; height: 30px; font-size: 15px; line-height: 1; -webkit-transition: .3s; transition: .3s; cursor: pointer }
+.date_picker_next:hover, .date_picker_prev:hover { background-color: rgba(0, 0, 0, .2) }
+
